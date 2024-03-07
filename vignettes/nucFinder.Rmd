@@ -1,0 +1,58 @@
+---
+title: "Introduction to nucFinder"
+output: 
+  BiocStyle::html_document:
+    self_contained: yes
+    toc: true
+    toc_float: true
+    toc_depth: 2
+    code_folding: show
+date: "`r doc_date()`"
+package: "`r pkg_ver('nucFinder')`"
+vignette: >
+  %\VignetteIndexEntry{Introduction to nucFinder}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}  
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(
+    collapse = TRUE,
+    comment = "#>",
+    crop = NULL, 
+    width = 180, 
+    dpi = 72, 
+    fig.align = "center", 
+    fig.width = 5, 
+    fig.asp = 0.7, 
+    dev = 'jpeg'
+)
+```
+
+```{r warning = FALSE, include = FALSE, echo = FALSE, message = FALSE, results = FALSE}
+library(nucFinder)
+```
+
+# Introduction 
+
+
+# Installation
+
+`nucFinder` package can be installed from Bioconductor using the following
+command: 
+
+```{r eval = FALSE}
+if (!require("BiocManager", quietly = TRUE))
+    install.packages("BiocManager")
+
+BiocManager::install("nucFinder")
+```
+
+# `nucFinder` classes
+
+
+# Session info
+
+```{r}
+sessionInfo()
+```
